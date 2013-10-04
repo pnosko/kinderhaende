@@ -1,0 +1,26 @@
+<head>
+  <title>Kinderhaende</title>
+</head>
+
+<body>
+  {{> LoginPanel}}
+  {{> Header}}
+  {{#if SignedIn}}
+    {{> InputForm}}
+  {{/if}}
+  {{> Companies}}
+</body>
+
+<template name="LoginPanel">
+  {{loginButtons}}
+</template>
+
+
+<template name="Header">  
+</template>
+
+<template name="InputForm">  
+</template>
+
+<template name="Companies">  
+</template>
